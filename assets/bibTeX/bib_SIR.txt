@@ -1,0 +1,9 @@
+@article{aurell2022optimal,
+  title={Optimal incentives to mitigate epidemics: a Stackelberg mean field game approach},
+  author={Aurell, Alexander and Carmona, Rene and Dayanikli, Gokce and Lauriere, Mathieu},
+  journal={SIAM Journal on Control and Optimization},
+  number={0},
+  pages={S294--S322},
+  year={2022},
+  publisher={SIAM}
+}

@@ -1,0 +1,8 @@
+@article{aurell2022finite,
+  title={Finite state graphon games with applications to epidemics},
+  author={Aurell, Alexander and Carmona, Ren{\'e} and Dayan{\i}kl{\i}, G{\"o}k{\c{c}}e and Lauri{\`e}re, Mathieu},
+  journal={Dynamic Games and Applications},
+  pages={1--33},
+  year={2022},
+  publisher={Springer}
+}

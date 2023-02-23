@@ -1,0 +1,10 @@
+@article{aurell2020behavior,
+  title={Behavior near walls in the mean-field approach to crowd dynamics},
+  author={Aurell, Alexander and Djehiche, Boualem},
+  journal={SIAM Journal on Applied Mathematics},
+  volume={80},
+  number={3},
+  pages={1153--1174},
+  year={2020},
+  publisher={SIAM}
+}

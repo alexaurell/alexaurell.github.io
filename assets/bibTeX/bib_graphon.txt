@@ -1,0 +1,8 @@
+@misc{aurell2021stochastic,
+      title={Stochastic Graphon Games: II. The Linear-Quadratic Case}, 
+      author={Alexander Aurell and Rene Carmona and Mathieu Lauriere},
+      year={2021},
+      eprint={2105.12320},
+      archivePrefix={arXiv},
+      primaryClass={math.PR}
+}

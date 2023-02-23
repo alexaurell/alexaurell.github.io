@@ -1,0 +1,10 @@
+@article{aurell2018mean,
+  title={Mean-field type modeling of nonlocal crowd aversion in pedestrian crowd dynamics},
+  author={Aurell, Alexander and Djehiche, Boualem},
+  journal={SIAM Journal on Control and Optimization},
+  volume={56},
+  number={1},
+  pages={434--455},
+  year={2018},
+  publisher={SIAM}
+}

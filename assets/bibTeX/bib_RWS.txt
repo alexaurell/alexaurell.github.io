@@ -1,0 +1,8 @@
+@misc{aurell2020stochastic,
+      title={Stochastic stability of a recency weighted sampling dynamic}, 
+      author={Alexander Aurell and Gustav Karreskog},
+      year={2020},
+      eprint={2009.12910},
+      archivePrefix={arXiv},
+      primaryClass={econ.TH}
+}

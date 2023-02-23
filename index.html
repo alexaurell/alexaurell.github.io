@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alexander Aurell</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
 
   <!--
     - favicon
@@ -180,7 +184,7 @@
           
           
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Publications</button>
+            <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
           <!--
@@ -387,6 +391,12 @@
         <header>
           <h2 class="h2 article-title">Resume</h2>
         </header>
+        <p>
+          <center>
+            <a href="."
+            <h4 class="h4">CV</h4>
+          </center>
+        </p>
 
         <section class="timeline">
 
@@ -579,10 +589,10 @@
         - #PORTFOLIO
       -->
 
-      <article class="publications" data-page="publications">
+      <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Publications</h2>
+          <h2 class="h2 article-title">Portfolio</h2>
         </header>
 
         <section class="projects">
@@ -590,19 +600,19 @@
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
+              <button class="active" data-filter-btn>Publications</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Working papers</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Presentations</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Theses</button>
             </li>
 
           </ul>
@@ -622,19 +632,15 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item>All</button>
+                <button data-select-item>Publications</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Working papers</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Presentations</button>
               </li>
 
             </ul>
@@ -643,168 +649,523 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://arxiv.org/abs/2105.12320">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="book-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/stoch-graph-games-II.png" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Stochastic Graphon Games II: The Linear-Quadratic Case</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">A.Aurell, R. Carmona, M. Lauri&eacutere</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://arxiv.org/abs/2011.03105">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="book-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/optimal-incentives.png" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Optimal incentives to mitigate epidemics: A Stackelberg mean field game approach</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">A. Aurell, R. Carmona, G. Dayan&#305kl&#305, M. Lauriére</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://link.springer.com/article/10.1007/s13235-021-00410-2">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="book-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/finite-graphon.png" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Finite State Graphon Games with Applications to Epidemics</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">A. Aurell, R. Carmona, G. Dayan&#305kl&#305, M. Lauriére</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://arxiv.org/abs/1907.07407">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="book-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/boundary.png" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Behavior near walls in the mean-field approach to crowd dynamics</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">A. Aurell, B. Djehiche</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://arxiv.org/abs/1801.08777">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="book-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/tagged.png" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">Modeling tagged pedestrian motion: A mean-field type game approach</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">A. Aurell, B. Djehiche</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://www.mdpi.com/2073-4336/9/4/88?type=check_update&version=2">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="book-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/mdpi.png" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">Mean-Field Type Games between Two Players Driven by Backward Stochastic Differential Equations</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">A. Aurell</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="publications">
+              <a href="https://arxiv.org/abs/1701.09118">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="book-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/crowd-aversion.png" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Summary</h3>
+                <h3 class="project-title">Mean-field type modeling of nonlocal crowd aversion in pedestrian crowd dynamics</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">A. Aurell, B. Djehiche</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <!--
+              WORKING PAPERS
+            -->
+
+
+            <li class="project-item " data-filter-item data-category="working papers">
+              <a href="https://arxiv.org/abs/2009.12910">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="book-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <img src="./assets/images/rws.png" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Task Manager</h3>
+                <h3 class="project-title">Stochastic stability of a recency weighted sampling dynamic</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">A. Aurell, G. Karreskog Rehbinder</p>
+
+              </a>
+            </li>
+            
+            <!--
+              PRESENTATIONS
+            -->
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/SILO_AI_RC.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/research-club.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mean field games and related tools: State of research and applications</h3>
+
+                <p class="project-category">Silo AI Research Club (2021)</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/LQGMFG_IMSI.pdf">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="book-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="./assets/images/ISMI-2021.png" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">Stochastic Dynamic Graphon Games</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Introduction to Mean Field Games and Applications, IMSI Chicago (2021)</p>
 
               </a>
             </li>
 
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/Epidemics_SIAMFME.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/fm21.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Optimal incentives to mitigate epidemics: A Stackelberg mean field game approach</h3>
+
+                <p class="project-category">SIAM Conference on Financial Mathematics and Engineering (FM21), Philadelphia (2021)</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/EpidemicsMIT.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/optimal-mit.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Optimal incentives to mitigate epidemics: A Stackelberg mean field game approach</h3>
+
+                <p class="project-category">Paths from Research and Impact: A year of collaborative research on COVID-19, MIT Massachusetts Institute of Technology (2021)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/kth-sem-dec.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/opt-kth-dec.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Optimal incentives to mitigate epidemics: A Stackelberg mean field game approach</h3>
+
+                <p class="project-category"> Mathematical statistics seminar, KTH Royal Institute of Technology (2020)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/KAAS.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/kaas.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">On modeling the behavior of pedestrians near walls and the mean-field approach to crowd dynamics</h3>
+
+                <p class="project-category"> KAAS seminar, Karlstads universitetet (2020)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/IPAM.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/IPAM.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sticky boundaries and boundary diffusion in the mean-field approach to pedestrian crowds</h3>
+
+                <p class="project-category"> Department of Mathematics Alumni Day, KTH Royal Institute of Technology (2019)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/vaxjo.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/vaxjo.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The behavior of pedestrians near walls in the mean-field approach to crowd dynamics</h3>
+
+                <p class="project-category">Stochastic control, BSDEs and applications, Linnéuniversitetet (2019)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/ICIAMfinal.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/iciam.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">On the mean-field approach to crowd dynamics: the behavior of pedestrians near walls</h3>
+
+                <p class="project-category">The International Council for Industrial and Applied Mathematics (ICIAM), Valencia (2019)</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/su_18.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/su-seminar.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mean-field control and mean-field type games of BSDEs"</h3>
+
+                <p class="project-category">Mathematical statistics seminar, Stockholm University (2018)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/AIMS18.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/aims.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Some aspects of mean-field type modeling of pedestrian crowd dynamics</h3>
+
+                <p class="project-category">AIMS Conference on Dynamical Systems, Differential Equations and Applications, Taipei (2018)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/IPAM.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/IPAM.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mean-field type control of BSDEs: pedestrian movement to a target location</h3>
+
+                <p class="project-category"> Graduate Summer School: Mean Field Games and Applications, IPAM UCLA (2018)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/PhDSem18.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/phd-seminar-18.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Some aspects of option pricing</h3>
+
+                <p class="project-category">PhD seminar, KTH Royal Institute of Technology (2018)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/SOAK2017.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/soak.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">A mean-field approach to chaining networks</h3>
+
+                <p class="project-category">	Svenska operationsanalyskonferensen (SOAK), Link&oumlping (2017) </p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/stoupp17.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/stoupp.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mean-field modeling of crowd dynamics</h3>
+
+                <p class="project-category"> 19'th Stockholm-Uppsala Symposium on Mathematical statistics, Uppsala University (2017) </p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="presentations">
+              <a href="./assets/slides/PhDSem16.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/phd-sem-16.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Relaxed optimal control</h3>
+
+                <p class="project-category">PhD seminar, KTH Royal Institute of Technology (2016)</p>
+
+              </a>
+            </li>
+
+            <!--
+              THESES
+            -->
+            
+            <li class="project-item " data-filter-item data-category="theses">
+              <a href="./assets/theses/Thesis_topics.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/phd-thesis-cover.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Topics in the mean-field type approach to pedestrian crowd modeling and conventions</h3>
+
+                <p class="project-category">Ph.D. thesis, KTH Royal Institute of Technology (2019)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="theses">
+              <a href="./assets/theses/FULLTEXT02.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/msc-thesis-cover.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The SVI implied volatility model and its calibration</h3>
+
+                <p class="project-category"> M.Sc. thesis, KTH Royal Institute of Technology (2014)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="theses">
+              <a href="./assets/theses/Percolation.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/percolation.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The critical probability for percolation on \(\mathbb{L}^2\)</h3>
+
+                <p class="project-category"> Semester project, EPFL &Eacutecole polytechnique f&eacuted&eacuterale de Lausanne (2013)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item " data-filter-item data-category="theses">
+              <a href="./assets/theses/bsc.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bsc.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Simulering av ljudv&aringgor med till&aumlmpning inom datorspel</h3>
+
+                <p class="project-category"> B.Sc. thesis, KTH Royal Institute of Technology (2012)</p>
+
+              </a>
+            </li>
           </ul>
 
         </section>

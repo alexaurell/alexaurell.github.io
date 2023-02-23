@@ -1,0 +1,6 @@
+@phdthesis{aurell2019topics,
+  title={Topics in the mean-field type approach to pedestrian crowd modeling and conventions},
+  author={Aurell, Alexander},
+  year={2019},
+  school={KTH Royal Institute of Technology}
+}

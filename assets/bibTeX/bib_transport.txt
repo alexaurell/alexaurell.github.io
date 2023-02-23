@@ -1,0 +1,9 @@
+@article{aurell2019modeling,
+  title={Modeling tagged pedestrian motion: A mean-field type game approach},
+  author={Aurell, Alexander and Djehiche, Boualem},
+  journal={Transportation research part B: methodological},
+  volume={121},
+  pages={168--183},
+  year={2019},
+  publisher={Elsevier}
+}

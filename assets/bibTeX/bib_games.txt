@@ -1,0 +1,10 @@
+@article{aurell2018mean,
+  title={Mean-field type games between two players driven by backward stochastic differential equations},
+  author={Aurell, Alexander},
+  journal={Games},
+  volume={9},
+  number={4},
+  pages={88},
+  year={2018},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
